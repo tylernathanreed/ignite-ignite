@@ -1,0 +1,15 @@
+.text-info {
+	color: $color-info;
+
+	&:hover, &:focus {
+		color: lighten($color-info, 10%);
+	}
+}
+
+.text-primary {
+	color: $color-primary;
+
+	&:hover, &:focus {
+		color: lighten($color-primary, 10%);
+	}
+}

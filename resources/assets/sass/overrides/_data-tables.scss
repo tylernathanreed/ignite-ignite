@@ -1,0 +1,17 @@
+.no-sort
+{
+	pointer-events: none !important;
+	cursor: default !important;
+
+	&:after { display: none !important; }
+}
+
+.dataTables_wrapper.dt-bootstrap {
+	.dataTables_filter {
+    	float: right;
+    }
+
+	input[type=search] {
+	    margin-left: 10px;
+	}
+}

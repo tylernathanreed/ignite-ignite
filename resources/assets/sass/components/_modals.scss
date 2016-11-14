@@ -1,0 +1,32 @@
+// Contextual variations
+.modal {
+	&.modal-default
+	{
+	    @include modal-variant($modal-default-border, $modal-default-text, $modal-default-heading-bg, $modal-default-border);
+	}
+
+	&.modal-primary
+	{
+	    @include modal-variant($modal-primary-border, $modal-primary-text, $modal-primary-heading-bg, $modal-primary-border);
+	}
+
+	&.modal-success
+	{
+	    @include modal-variant($modal-success-border, $modal-success-text, $modal-success-heading-bg, $modal-success-border);
+	}
+
+	&.modal-info
+	{
+	    @include modal-variant($modal-info-border, $modal-info-text, $modal-info-heading-bg, $modal-info-border);
+	}
+
+	&.modal-warning
+	{
+	    @include modal-variant($modal-warning-border, $modal-warning-text, $modal-warning-heading-bg, $modal-warning-border);
+	}
+
+	&.modal-danger
+	{
+	    @include modal-variant($modal-danger-border, $modal-danger-text, $modal-danger-heading-bg, $modal-danger-border);
+	}
+}

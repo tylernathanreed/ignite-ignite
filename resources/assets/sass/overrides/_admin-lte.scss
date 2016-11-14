@@ -1,0 +1,103 @@
+/*
+|--------------------------------------------------------------------------
+| Login Components
+|--------------------------------------------------------------------------
+|
+| Overrides for the main Login Form.
+|
+*/
+
+// The Login Page itself
+.login-page {
+	background-color: #3c8dbc;
+}
+
+// The Login Logo Branding
+.login-logo {
+	color: white;
+	font-size: 39px;
+}
+
+// The Login Box Body Wrapper
+.login-box-body {
+	border-radius: 5px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Modals
+|--------------------------------------------------------------------------
+|
+| Overrides Popup Models.
+|
+*/
+
+// Modal Headers
+.modal-header {
+	border-bottom-color: #e5e5e5;
+}
+
+// Modal Footers
+.modal-footer {
+	border-top-color: #e5e5e5;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Boxes
+|--------------------------------------------------------------------------
+|
+| Overrides Box Containers.
+|
+*/
+
+.box-header.with-border {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Buttons
+|--------------------------------------------------------------------------
+|
+| Overrides various Button Styles.
+|
+*/
+
+.btn-box-tool {
+    padding: 0px;
+    font-size: 20px;
+    background: transparent;
+    color: #97a0b3;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Tables
+|--------------------------------------------------------------------------
+|
+| Overrides Tables and Table Elements.
+|
+*/
+
+.table {
+	& > thead, & > tbody, & > tfoot {
+		& > tr {
+			th, td {
+				border-top: 1px solid #e5e5e5;
+			}
+		}
+	}
+}
+
+/*
+|--------------------------------------------------------------------------
+| Menus & Dropdown Menus
+|--------------------------------------------------------------------------
+|
+| Overrides Menus and Dropdown Menus.
+|
+*/
+.dropdown-menu {
+    border-color: #ccc;
+}

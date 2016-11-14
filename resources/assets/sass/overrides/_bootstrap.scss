@@ -1,0 +1,50 @@
+/*
+|--------------------------------------------------------------------------
+| Buttons & Links
+|--------------------------------------------------------------------------
+|
+| Overrides various Button Styles and Anchor Tags.
+|
+*/
+
+.btn:active:focus, .btn:focus {
+	outline: none;
+}
+
+.header > a:hover {
+    background-color: #FFF !important;
+    color: #777 !important;
+    cursor: default;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Elements
+|--------------------------------------------------------------------------
+|
+| Overrides raw HTML Elements.
+|
+*/
+
+hr {
+	border-top: 1px solid #d5d5d5;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Tables
+|--------------------------------------------------------------------------
+|
+| Overrides Tables and Table Elements.
+|
+*/
+
+.table
+{
+	border: 1px solid #ddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd)
+{
+    background-color: #f5f5f5;
+}

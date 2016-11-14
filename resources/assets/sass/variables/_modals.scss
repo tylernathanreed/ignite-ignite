@@ -1,0 +1,37 @@
+/**
+ * Modals
+ */
+
+$modal-bg:                    #fff !default;
+$modal-body-padding:          15px !default;
+$modal-heading-padding:       10px 15px !default;
+$modal-footer-padding:        $modal-heading-padding !default;
+$modal-border-radius:         $border-radius-base !default;
+
+$modal-inner-border:          #ddd !default;
+$modal-footer-bg:             #f5f5f5 !default;
+
+//* Variants *//
+$modal-default-text:          $gray-dark !default;
+$modal-default-border:        #ddd !default;
+$modal-default-heading-bg:    #EEE !default;
+
+$modal-primary-text:          #fff !default;
+$modal-primary-border:        $color-primary !default;
+$modal-primary-heading-bg:    $color-primary !default;
+
+$modal-success-text:          $state-success-text !default;
+$modal-success-border:        $state-success-border !default;
+$modal-success-heading-bg:    $state-success-bg !default;
+
+$modal-info-text:             $state-info-text !default;
+$modal-info-border:           $state-info-border !default;
+$modal-info-heading-bg:       $state-info-bg !default;
+
+$modal-warning-text:          $state-warning-text !default;
+$modal-warning-border:        $state-warning-border !default;
+$modal-warning-heading-bg:    $state-warning-bg !default;
+
+$modal-danger-text:           $state-danger-text !default;
+$modal-danger-border:         $state-danger-border !default;
+$modal-danger-heading-bg:     $state-danger-bg !default;

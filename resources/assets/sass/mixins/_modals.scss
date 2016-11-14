@@ -1,0 +1,12 @@
+@mixin modal-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+{
+	.modal-content
+	{
+		& > .modal-header
+		{
+			color: $heading-text-color;
+			background-color: $heading-bg-color;
+			border-color: $heading-border;
+		}
+	}
+}
